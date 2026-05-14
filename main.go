@@ -1,8 +1,6 @@
 package main
 
-import "fmt"
-
 func main() {
-	fmt.Println("test go lang")
 	// dataTypes()
+	consoleOutput()
 }
