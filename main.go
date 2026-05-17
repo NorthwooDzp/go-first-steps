@@ -2,5 +2,6 @@ package main
 
 func main() {
 	// dataTypes()
-	stringFormat()
+	// stringFormat()
+	arithmeticOperations()
 }
