@@ -4,5 +4,6 @@ func main() {
 	// dataTypes()
 	// stringFormat()
 	// arithmeticOperations()
-	conditionsAndConditionals()
+	// conditionsAndConditionals()
+	looping()
 }
