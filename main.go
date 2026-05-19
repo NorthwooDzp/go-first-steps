@@ -9,5 +9,6 @@ func main() {
 	// conditionsAndConditionals()
 	// looping()
 	arrays.Arrays()
+	arrays.Slices()
 	// slices()
 }

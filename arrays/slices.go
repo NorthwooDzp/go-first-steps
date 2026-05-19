@@ -1,8 +1,8 @@
-package main
+package arrays
 
 import "fmt"
 
-func slices() {
+func Slices() {
 	slice := []int{}
 	slice = append(slice, 5)
 
