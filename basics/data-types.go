@@ -1,8 +1,8 @@
-package main
+package basics
 
 import "fmt"
 
-func dataTypes() {
+func DataTypes() {
 	// uint - unsigned integer, uint32 or uint64 based on value
 	// uint8 - unit 64
 	// int - signed integer, same as uint

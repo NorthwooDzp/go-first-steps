@@ -1,8 +1,8 @@
-package main
+package basics
 
 import "fmt"
 
-func stringFormat() {
+func StringFormat() {
 
 	// Print without formatting (plain output)
 	fmt.Print("anything", "something else", "\n")

@@ -1,8 +1,8 @@
-package main
+package basics
 
 import "fmt"
 
-func conditionsAndConditionals() {
+func ConditionsAndConditionals() {
 	x := 64
 
 	if x < 98 {

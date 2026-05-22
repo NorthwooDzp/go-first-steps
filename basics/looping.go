@@ -1,8 +1,8 @@
-package main
+package basics
 
 import "fmt"
 
-func looping() {
+func Looping() {
 	for i := 5; i < 10; i += 2 {
 		fmt.Println("Current index is", i)
 	}

@@ -1,4 +1,4 @@
-package main
+package basics
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 	"strconv"
 )
 
-func arithmeticOperations() {
+func ArithmeticOperations() {
 	/**
 	Main operators:
 	+
@@ -20,14 +20,18 @@ func arithmeticOperations() {
 
 	x := uint8(65)
 	y := 7
-	res1 := int(x) + y                // proper type conversion, smaller type converted to the larger
-	res2 := float64(x) / float64(y)   // need to convert to float, otherwise only whole part will be in the result
-	res3 := "hi" + string(2)          // wrong formatting
-	res4 := "hello" + fmt.Sprint(654) // proper format
+	res1 := int(x) + y // proper type conversion, smaller type converted to the larger
 	fmt.Println(res1)
+
+	res2 := float64(x) / float64(y) // need to convert to float, otherwise only whole part will be in the result
 	fmt.Println(res2)
-	fmt.Println(res3)
+
+	// res3 := "hi" + string(2)          // wrong formatting
+	// fmt.Println(res3)
+
+	res4 := "hello" + fmt.Sprint(654) // proper format
 	fmt.Println(res4)
+
 	/* The math package */
 	fmt.Println(math.Pi)
 
