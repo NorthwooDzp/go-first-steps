@@ -36,4 +36,5 @@ func Arrays() {
 
 func changeArr2(arr [2][2]int) {
 	arr[0] = [2]int{100, 100}
+	fmt.Println("inside the function => ", arr) // check is the value mutated inside the function
 }
