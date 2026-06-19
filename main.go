@@ -1,7 +1,7 @@
 package main
 
 import (
-	"learning.dev/go-learning/arrays"
+	"learning.dev/go-learning/advanced"
 )
 
 func main() {
@@ -12,5 +12,6 @@ func main() {
 	// basics.Looping()
 
 	// arrays.Arrays()
-	arrays.Slices()
+	// arrays.Slices()
+	advanced.Maps()
 }
