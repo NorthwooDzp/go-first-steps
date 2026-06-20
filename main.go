@@ -13,5 +13,6 @@ func main() {
 
 	// arrays.Arrays()
 	// arrays.Slices()
-	advanced.Maps()
+	// advanced.Maps()
+	advanced.Functions()
 }
