@@ -14,5 +14,6 @@ func main() {
 	// arrays.Arrays()
 	// arrays.Slices()
 	// advanced.Maps()
-	advanced.Functions()
+	// advanced.Functions()
+	advanced.Structs()
 }
