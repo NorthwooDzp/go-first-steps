@@ -1,8 +1,14 @@
 package basics
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
+
+const SimplePi float32 = 3.14 // defininf const
 
 func DataTypes() {
+	const MathPi float32 = math.Pi // local const in fumction
 	// uint - unsigned integer, uint32 or uint64 based on value (uint8 - unit 64)
 	// int - signed integer, same as uint
 	// float32 and float64 - value with floating point
