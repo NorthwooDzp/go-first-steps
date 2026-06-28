@@ -3,15 +3,14 @@ package basics
 import "fmt"
 
 func DataTypes() {
-	// uint - unsigned integer, uint32 or uint64 based on value
-	// uint8 - unit 64
+	// uint - unsigned integer, uint32 or uint64 based on value (uint8 - unit 64)
 	// int - signed integer, same as uint
 	// float32 and float64 - value with floating point
 	// byte = int8, can be used for store individual character e.g. 'c'
 	// rune = int32
 	// bool = boolean value true/false
-	// string - only in ""
-	// nil = undefined or null
+	// string - text enclosed in double quotes ""
+	// nil = zero value for reference-like types such as pointers, slices, maps, and interfaces
 
 	// Declaring variables:
 

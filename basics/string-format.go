@@ -10,7 +10,7 @@ func StringFormat() {
 	// Print formatted (space between arguments) with line ending
 	fmt.Println("printing new line", "new value after space")
 
-	// Formatting to specified format fmt.Pringf
+	// Formatting with fmt.Printf
 	fmt.Printf("%T %T", false, 654) // Print member type
 	fmt.Println()
 
@@ -23,9 +23,9 @@ func StringFormat() {
 	fmt.Println()
 	fmt.Printf("%b", 255) // %b - print the value in binary representation
 	fmt.Println()
-	fmt.Printf("%e", 25565585.22544) // %b - print the scientific notation for the number
+	fmt.Printf("%e", 25565585.22544) // %e - print the value in scientific notation
 	fmt.Println()
-	fmt.Printf("%f", 85.22) // %b - print the floating representation for the number, 6 decimals with 0 fulfillment
+	fmt.Printf("%f", 85.22) // %f - print the floating-point value with 6 decimal places
 	fmt.Println()
 	fmt.Printf("%.2f", 85.22544) // represent only 2 decimals with math rounding
 	fmt.Println()
