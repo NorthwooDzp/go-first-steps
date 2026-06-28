@@ -1,0 +1,3 @@
+package advanced
+
+func Generics() {}

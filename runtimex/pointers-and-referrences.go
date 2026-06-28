@@ -1,0 +1,3 @@
+package runtimex
+
+func PointersAndReferrences() {}

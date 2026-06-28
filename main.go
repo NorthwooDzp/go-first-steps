@@ -1,8 +1,6 @@
 package main
 
-import (
-	"learning.dev/go-learning/advanced"
-)
+import "learning.dev/go-learning/runtimex"
 
 func main() {
 	// basics.DataTypes()
@@ -17,5 +15,7 @@ func main() {
 	// advanced.Maps()
 	// advanced.Functions()
 	// advanced.Structs()
-	advanced.Interfaces()
+	// advanced.Interfaces()
+
+	runtimex.ErrorHandling()
 }
