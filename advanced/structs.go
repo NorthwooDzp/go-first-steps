@@ -25,7 +25,7 @@ func (p Person) printName() {
 }
 
 func (p *Person) changeAge(newAge uint) {
-	p.Age = newAge
+	p.Age = newAge // (*p).Age not needed, go will handle refference onder the hood
 	fmt.Println("New age in correct method =>", p.Age)
 }
 
