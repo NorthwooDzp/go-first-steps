@@ -1,8 +1,8 @@
 package main
 
-import (
-	"learning.dev/go-learning/runtimex"
-)
+import "learning.dev/go-learning/runtimex"
+
+// course video link https://www.youtube.com/watch?v=V-lI7AmusGs&t=14620s
 
 func main() {
 	// basics.DataTypes()
@@ -21,5 +21,7 @@ func main() {
 	// advanced.Generics()
 
 	// runtimex.ErrorHandling()
-	runtimex.PointersAndReferrences()
+	// runtimex.PointersAndReferrences()
+	// runtimex.GoRoutinesSimple()
+	runtimex.GoRoutinesWithLock()
 }
